@@ -139,7 +139,7 @@
                   "id": "6071184e-f1f7-423e-b211-b94922c8ed0f",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -152,7 +152,7 @@
                   "id": "b056bb9d-7ab4-49cd-8986-260e858d7f2b",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -163,7 +163,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -294,7 +294,7 @@
                   "id": "73f0c795-933e-4f2f-96e1-435ac0659390",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -307,7 +307,7 @@
                   "id": "cd2f3004-26e7-4773-82f1-23f45d57f52a",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -320,7 +320,7 @@
                   "id": "4da28fa6-9f76-4310-9177-171fb5050a5b",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -372,7 +372,7 @@
                   "id": "47e74380-3612-45c5-8427-fc8bb134d4ba",
                   "title": "Application Code/Configuration Tampering",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Provide a description for this threat",
                   "mitigation": "Malicious modification of the application's source code, server configurations, or environment variables could introduce backdoors or disable security features.",
@@ -385,7 +385,7 @@
                   "id": "23b2f8aa-bc12-496b-a3b9-7ec7ffe58200",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -411,7 +411,7 @@
                   "id": "ece18914-517d-4b79-8b46-5b286e234c14",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -424,7 +424,7 @@
                   "id": "14dd961c-e1d5-48a1-a339-3ed24c538999",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -437,7 +437,7 @@
                   "id": "7be25939-3157-473b-b262-09fe4876fc30",
                   "title": "Application Code and Configuration Disclosure",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Exposure of source code, server configurations, environment variables, or API keys.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -450,7 +450,7 @@
                   "id": "b349fc00-e5b3-4469-ad92-6be86a23a040",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -463,7 +463,7 @@
                   "id": "b187e574-48d2-4be4-9c33-d6dbc1e947ed",
                   "title": "Web Application Server DoS",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Denial of service",
                   "description": "An attacker could flood the Web Application Server with excessive requests, making it unavailable.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -476,7 +476,7 @@
                   "id": "f2dbe2f3-275b-46dd-8274-de88f764435c",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -489,7 +489,7 @@
                   "id": "3741b5ae-1858-4b76-91d9-263fa3311b67",
                   "title": "Customer to Staff Privilege Escalation",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Elevation of privilege",
                   "description": "A customer could exploit a vulnerability to gain unauthorized access to Barista, Manager, or Administrator functionalities.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -502,7 +502,7 @@
                   "id": "0d7c4897-db20-4ee1-bcd8-dbf12fb76325",
                   "title": "Barista/Manager to Administrator Privilege Escalation",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Elevation of privilege",
                   "description": "A Barista or Manager could exploit a vulnerability to gain Administrator privileges.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -515,7 +515,7 @@
                   "id": "a6230808-69b7-4da9-80d6-bc0e150056f9",
                   "title": "Horizontal Privilege Escalation",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Elevation of privilege",
                   "description": "Gaining unauthorized access to another user's account within the same privilege level.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -526,12 +526,12 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 4,
-                "tampering": 5,
-                "repudiation": 2,
-                "informationDisclosure": 4,
-                "denialOfService": 2,
-                "elevationOfPrivilege": 3
+                "spoofing": 7,
+                "tampering": 7,
+                "repudiation": 3,
+                "informationDisclosure": 8,
+                "denialOfService": 4,
+                "elevationOfPrivilege": 6
               }
             },
             "children": [
@@ -660,7 +660,7 @@
                   "id": "e3da8ee5-3d89-4fea-bfb0-7826fc58c4ff",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -673,7 +673,7 @@
                   "id": "46b362cd-da3b-4437-8716-808661d45105",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -684,7 +684,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -863,7 +863,7 @@
                   "id": "f4f054f6-b66f-431b-afdc-7209caa13a99",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -889,7 +889,7 @@
                   "id": "5908a4bc-c31f-44b0-bd0c-23b392929dfd",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -902,7 +902,7 @@
                   "id": "faef12a3-8ef9-413a-9cff-9ecb597967c7",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -915,7 +915,7 @@
                   "id": "3dd837f4-349b-48fa-89b6-34bf53f835db",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -928,7 +928,7 @@
                   "id": "ba333e04-2c88-41ca-90af-3eeb1c06249f",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -940,10 +940,17 @@
               ],
               "threatFrequency": {
                 "tampering": 4,
-                "repudiation": 2,
-                "informationDisclosure": 3,
-                "denialOfService": 2
+                "repudiation": 3,
+                "informationDisclosure": 6,
+                "denialOfService": 3
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1065,7 +1072,7 @@
                   "id": "4918c9dd-6048-435c-9713-a1c5a9b46d1a",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -1076,7 +1083,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1200,7 +1207,7 @@
                   "id": "35b47bbb-1110-4d44-9674-5612cfcd2c25",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -1211,7 +1218,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1335,7 +1342,7 @@
                   "id": "db38fa12-a011-45d6-b952-ab88a3b811a0",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -1346,7 +1353,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1470,7 +1477,7 @@
                   "id": "5e1a5bc4-dd43-4a78-842c-e4a0e4a07ef2",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -1481,7 +1488,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1608,7 +1615,7 @@
                   "id": "ef8e7640-929d-4b0b-b47f-2bbe6fe49855",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "Low",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -1619,7 +1626,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
